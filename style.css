@@ -57,7 +57,7 @@ body {
   bottom: -30px;
   left: 0;
   background: linear-gradient(to left, #eb7b1b, #ffb370);
-  height: 80%;
+  height: 100%;
   width: 100%;
   border-radius: 50%;
   animation: tea-move 3s linear infinite alternate;
@@ -160,4 +160,16 @@ body {
 }
 .inspired-text a {
   color: #eb7b1b;
+}
+@media only screen and (max-width: 600px) {
+  .tea{
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  background: linear-gradient(to left, #eb7b1b, #ffb370);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  animation: tea-move 1s linear infinite alternate;
+}
 }
