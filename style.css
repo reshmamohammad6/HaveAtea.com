@@ -60,9 +60,9 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  animation: tea-move 3s linear infinite alternate;
+  /*animation: tea-move 3s linear infinite alternate;*/
 }
-@keyframes tea-move {
+/*@keyframes tea-move {
   0% {
     transform: scale(0, 0);
   }
@@ -75,7 +75,7 @@ body {
   100% {
     transform: scale(1.1, 1.1);
   }
-}
+}*/
 .cup-platte {
   position: absolute;
   left: -100px;
@@ -161,15 +161,4 @@ body {
 .inspired-text a {
   color: #eb7b1b;
 }
-@media only screen and (max-width: 600px) {
-  .tea{
-  position: absolute;
-  bottom: -30px;
-  left: 0;
-  background: linear-gradient(to left, #eb7b1b, #ffb370);
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  animation: tea-move 1s linear infinite alternate;
-}
-}
+
